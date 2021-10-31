@@ -1,5 +1,5 @@
 {% set name = "torch-optimizer" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c338c6bfcd111e36875e55b5988125a82ab86fba6fe8ba2adcef9d1698d24b59
+  sha256: b2180629df9d6cd7a2aeabe71fa4a872bba938e8e275965092568cd9931b924c
 
 build:
   number: 0
